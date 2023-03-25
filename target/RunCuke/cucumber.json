@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5247079600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should navigate to contact us successfully",
+        "description": "",
+        "id": "home-page;user-should-navigate-to-contact-us-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 175500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124516000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "CareersSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180149300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on accept cookies",
+            "match": {
+              "location": "CareersSteps.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5510254400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on contact us link",
+            "match": {
+              "location": "CareersSteps.iClickOnContactUsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2065529900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify text om contact us page",
+            "match": {
+              "location": "CareersSteps.iVerifyTextOmContactUsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page",
+    "description": "As user I want to go to careers page",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "careers.feature"
+  }
+]
